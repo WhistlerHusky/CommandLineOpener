@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CommandLineOpener" Version="1.0" Language="en-US" Publisher="Euijun Han" />
+    <DisplayName>CommandLineOpener</DisplayName>
+    <Description xml:space="preserve">Command Line Opener</Description>
+    <GettingStartedGuide>index.html</GettingStartedGuide>
+    <ReleaseNotes>index.html</ReleaseNotes>
+    <Icon>Resources\OpenCommandLinePackage.ico</Icon>
+    <PreviewImage>Resources\OpenCommandLinePackage.ico</PreviewImage>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Version="[14.0]" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[14.0]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" d:VsixSubPath="CommandLineOpener" />
+  </Assets>
+</PackageManifest>
