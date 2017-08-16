@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/1i6r6667nc6al629?svg=true)](https://ci.appveyor.com/project/WhistlerHusky/commandlineopener)
+
 # CommandLineOpener
 Visual Studio Extension - Opening a command line at selected file, folder, project or solution directory
 
